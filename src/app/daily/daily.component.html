@@ -1,0 +1,24 @@
+<div>
+    <form>
+        <div class="form-group" ngNativeValidate>
+        <label for="moneyspent">Money Spent</label>
+        <input type="number" name="moneyspent" id="moneyspent" placeholder="Enter Money Spent" class="form-control" required #moneyspent>
+        </div>
+    
+        <div class="form-group">
+          <label for="desc">Description</label>
+          <input type="text" name="desc" placeholder="Enter Description" id="desc" class="form-control" #desc>
+        </div>
+
+        <div class="form-group">
+            <label for="desc">Category</label>
+            <select class="form-control">
+                <option>Food</option>  
+                <option>Petrol</option>  
+                <option>Salary</option> 
+            </select>
+        </div>
+
+      <button class="btn btn-primary" type="submit">Submit</button>
+    </form>
+</div>
